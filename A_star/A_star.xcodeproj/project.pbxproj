@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		04E91E0629DD6F5E00CC06DD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04E91E0529DD6F5E00CC06DD /* main.cpp */; };
+		04E91E1429DD736100CC06DD /* CAStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04E91E1229DD736100CC06DD /* CAStar.cpp */; };
+		04E91E1729DD7EDE00CC06DD /* CNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04E91E1529DD7EDE00CC06DD /* CNode.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		04E91E0229DD6F5E00CC06DD /* A_star */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = A_star; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E91E0529DD6F5E00CC06DD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04E91E0C29DD6FAB00CC06DD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		04E91E0E29DD71CB00CC06DD /* CPathFinding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPathFinding.h; sourceTree = "<group>"; };
+		04E91E1229DD736100CC06DD /* CAStar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CAStar.cpp; sourceTree = "<group>"; };
+		04E91E1329DD736100CC06DD /* CAStar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CAStar.hpp; sourceTree = "<group>"; };
+		04E91E1529DD7EDE00CC06DD /* CNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CNode.cpp; sourceTree = "<group>"; };
+		04E91E1629DD7EDE00CC06DD /* CNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +49,7 @@
 		04E91DF929DD6F5E00CC06DD = {
 			isa = PBXGroup;
 			children = (
+				04E91E0C29DD6FAB00CC06DD /* README.md */,
 				04E91E0429DD6F5E00CC06DD /* A_star */,
 				04E91E0329DD6F5E00CC06DD /* Products */,
 			);
@@ -58,6 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				04E91E0529DD6F5E00CC06DD /* main.cpp */,
+				04E91E0E29DD71CB00CC06DD /* CPathFinding.h */,
+				04E91E1229DD736100CC06DD /* CAStar.cpp */,
+				04E91E1329DD736100CC06DD /* CAStar.hpp */,
+				04E91E1529DD7EDE00CC06DD /* CNode.cpp */,
+				04E91E1629DD7EDE00CC06DD /* CNode.hpp */,
 			);
 			path = A_star;
 			sourceTree = "<group>";
@@ -119,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E91E1429DD736100CC06DD /* CAStar.cpp in Sources */,
 				04E91E0629DD6F5E00CC06DD /* main.cpp in Sources */,
+				04E91E1729DD7EDE00CC06DD /* CNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

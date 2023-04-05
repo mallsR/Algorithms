@@ -8,5 +8,8 @@
 #ifndef CAStar_h
 #define CAStar_h
 
+#include "CPathFinding.h"
+#include <vector>
+
 
 #endif /* CAStar_h */

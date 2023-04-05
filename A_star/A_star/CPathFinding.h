@@ -8,5 +8,6 @@
 #ifndef CPathFinding_h
 #define CPathFinding_h
 
-
+//基础的路径寻找算法类
+class CPathFinding{};
 #endif /* CPathFinding_h */
